@@ -1,0 +1,2 @@
+[20260518_145701] SUCCESS! Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir As: backup_20260518_145701_v1.0.0
+[20260518_150327] Error occured! Could NOT be Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_ir As: backup_20260518_150327_v1.0.0
