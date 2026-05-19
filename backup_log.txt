@@ -6,3 +6,5 @@
 [20260519_201710] SUCCESS! Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir As: zip_20260519_201710_v1.0.0.zip
 [20260519_202645] SUCCESS! Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir As: zip_20260519_202645_v1.0.0.zip in 0.09125137329101562 seconds 
 [20260519_202910] SUCCESS! Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir As: backup_20260519_202910_v1.0.0 Time needed: 0.01 seconds 
+[20260519_203813] SUCCESS!File count:2 Source: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir Destination: backup_20260519_203813_v1.0.0 Duration: 0.01 seconds 
+[20260519_204100] SUCCESS! | Files: 2 | Duration: 0.01s | Source: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir | Dest: backup_20260519_204100_v1.0.0

@@ -4,6 +4,15 @@ import shutil
 import time
 class Backup:
     
+    
+    @staticmethod
+    def count_files(source_path):
+        return len([f for f in Path(source_path).rglob('*') if f.is_file()])    
+
+    
+    
+    
+    
     @staticmethod
     def backup(backup_source, zip_it=False):
         start_time=time.time()
@@ -25,7 +34,14 @@ class Backup:
                         actual_destination=backup_destination
                     
                     duration=time.time()-start_time
-                    log_entry=f"[{timestamp}] SUCCESS!File count:{file_count} Source: {backup_source} Destination: {actual_destination} Duration: {duration:.2f} seconds \n"
+                    file_count=Backup.count_files(backup_source)
+                    log_entry = (
+                        f"[{timestamp}] SUCCESS! | "
+                        f"Files: {file_count} | "
+                        f"Duration: {duration:.2f}s | "
+                        f"Source: {backup_source} | "
+                        f"Dest: {actual_destination}\n"
+                    )  
                     with open("backup_log.txt","a") as log_file:
                         log_file.write(log_entry) 
                     
@@ -45,8 +61,6 @@ class Backup:
             with open("backup_log.txt","a") as log_file:
                 log_file.write(log_entry)
             print(f"Error; {e}")
-        
-        
-        
+            
 
 
