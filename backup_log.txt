@@ -1,2 +1,8 @@
 [20260518_145701] SUCCESS! Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir As: backup_20260518_145701_v1.0.0
 [20260518_150327] Error occured! Could NOT be Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_ir As: backup_20260518_150327_v1.0.0
+[20260519_193115] Error occured! Could NOT be Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir As: backup_20260519_193115_v1.0.0
+[20260519_201310] Error occured! Could NOT be Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir As: backup_20260519_201310_v1.0.0
+[20260519_201344] Error occured! Could NOT be Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir As: backup_20260519_201344_v1.0.0
+[20260519_201710] SUCCESS! Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir As: zip_20260519_201710_v1.0.0.zip
+[20260519_202645] SUCCESS! Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir As: zip_20260519_202645_v1.0.0.zip in 0.09125137329101562 seconds 
+[20260519_202910] SUCCESS! Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir As: backup_20260519_202910_v1.0.0 Time needed: 0.01 seconds 
