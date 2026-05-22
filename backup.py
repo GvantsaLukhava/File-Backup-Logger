@@ -2,6 +2,7 @@ import datetime
 from pathlib import Path
 import shutil
 import time
+
 class Backup:
     
     
@@ -29,6 +30,7 @@ class Backup:
                         zip_name=f'zip_{timestamp}_{VERSION}'
                         shutil.make_archive(zip_name,format='zip',root_dir=str(backup_source))
                         actual_destination=f"{zip_name}.zip"
+                        return True
                     else: 
                         shutil.copytree(backup_source,backup_destination)
                         actual_destination=backup_destination
@@ -44,23 +46,29 @@ class Backup:
                     )  
                     with open("backup_log.txt","a") as log_file:
                         log_file.write(log_entry) 
-                    
+                        return False
+
                 else:
                     print("ERROR: THat folder does not exist! ")
                     log_entry=f"[{timestamp}] ERROR! Could NOT be Backed up: {backup_source} As: {backup_destination}\n"
                     with open("backup_log.txt","a") as log_file:
         
         
-                        log_file.write(log_entry) 
+                        log_file.write(log_entry)
+                    return False 
         except PermissionError:
                 log_entry=f"[{timestamp}] Permission denied! Could NOT be Backed up: {backup_source} As: {backup_destination}\n"
                 with open("backup_log.txt","a") as log_file:
                     log_file.write(log_entry)
+                return False
         except Exception as e:
             log_entry=f"[{timestamp}] Error occured! Could NOT be Backed up: {backup_source} As: {backup_destination}\n"
             with open("backup_log.txt","a") as log_file:
                 log_file.write(log_entry)
             print(f"Error; {e}")
+            return False
+
+        
             
 
 

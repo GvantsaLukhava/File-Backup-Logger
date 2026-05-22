@@ -8,3 +8,12 @@
 [20260519_202910] SUCCESS! Backed up: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir As: backup_20260519_202910_v1.0.0 Time needed: 0.01 seconds 
 [20260519_203813] SUCCESS!File count:2 Source: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir Destination: backup_20260519_203813_v1.0.0 Duration: 0.01 seconds 
 [20260519_204100] SUCCESS! | Files: 2 | Duration: 0.01s | Source: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir | Dest: backup_20260519_204100_v1.0.0
+[20260522_114245] SUCCESS! | Files: 2 | Duration: 0.05s | Source: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir | Dest: backup_20260522_114245_v1.0.0
+[20260522_115345] SUCCESS! | Files: 2 | Duration: 0.01s | Source: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir | Dest: backup_20260522_115345_v1.0.0
+[20260522_115627] SUCCESS! | Files: 2 | Duration: 0.12s | Source: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir | Dest: zip_20260522_115627_v1.0.0.zip
+[20260522_115708] SUCCESS! | Files: 2 | Duration: 0.01s | Source: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir | Dest: zip_20260522_115708_v1.0.0.zip
+[20260522_115721] SUCCESS! | Files: 2 | Duration: 0.05s | Source: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir | Dest: backup_20260522_115721_v1.0.0
+[20260522_115731] ERROR! Could NOT be Backed up: C:\Users\glukhava\EUTech Engineers\FileBackup-Logger\original_dir As: backup_20260522_115731_v1.0.0
+[20260522_120128] ERROR! Could NOT be Backed up: C:\Users\glukhava\EUTech Engineers\File-ackup-Logger\original_dir As: backup_20260522_120128_v1.0.0
+[20260522_120348] ERROR! Could NOT be Backed up: C:\Users\glukhava\EUTech Engineers\Fil-Backup-Logger\original_dir As: backup_20260522_120348_v1.0.0
+[20260522_120348] ERROR! Could NOT be Backed up: C:\Users\glukhava\EUTech Engineers\Fil-Backup-Logger\original_dir As: backup_20260522_120348_v1.0.0
