@@ -2,17 +2,11 @@ import datetime
 from pathlib import Path
 import shutil
 import time
-
 class Backup:
-    
     
     @staticmethod
     def count_files(source_path):
         return len([f for f in Path(source_path).rglob('*') if f.is_file()])    
-
-    
-    
-    
     
     @staticmethod
     def backup(backup_source, zip_it=False):
