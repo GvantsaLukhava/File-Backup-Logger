@@ -46,7 +46,7 @@ class Backup:
                     )  
                     with open("backup_log.txt","a") as log_file:
                         log_file.write(log_entry) 
-                        return False
+                        return True
 
                 else:
                     print("ERROR: THat folder does not exist! ")

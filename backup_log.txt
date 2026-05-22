@@ -17,3 +17,6 @@
 [20260522_120128] ERROR! Could NOT be Backed up: C:\Users\glukhava\EUTech Engineers\File-ackup-Logger\original_dir As: backup_20260522_120128_v1.0.0
 [20260522_120348] ERROR! Could NOT be Backed up: C:\Users\glukhava\EUTech Engineers\Fil-Backup-Logger\original_dir As: backup_20260522_120348_v1.0.0
 [20260522_120348] ERROR! Could NOT be Backed up: C:\Users\glukhava\EUTech Engineers\Fil-Backup-Logger\original_dir As: backup_20260522_120348_v1.0.0
+[20260522_122526] SUCCESS! | Files: 2 | Duration: 0.01s | Source: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir | Dest: backup_20260522_122526_v1.0.0
+[20260522_122813] SUCCESS! | Files: 2 | Duration: 0.01s | Source: C:\Users\glukhava\EUTech Engineers\File-Backup-Logger\original_dir | Dest: backup_20260522_122813_v1.0.0
+[20260522_122828] ERROR! Could NOT be Backed up: C:\Users\glukhava\EUTech Enginrs\File-Backup-Logger\original_dir As: backup_20260522_122828_v1.0.0
